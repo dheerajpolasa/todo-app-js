@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-align: center; */
+    background: dodgerblue;
+}
+
+.header {
+    width: 500px;
+    height: 150px;
+    /* border: 2px solid black; */
+    margin-left: 30%;
+    /* vertical-align: center; */
+    text-align: center;
+}
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
+}
+
+button {
+    /* width: 100px; */
+    margin: 2px;
+    padding: 2px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    background: dodgerblue;
+    text-decoration: none;
+    border:none;
+}
+
+#clearAll, #clearCompleted {
+    margin-top: 10px;
+}
+
+.list-container {
+    /* width: 200px; */
+    /* border: 2px solid black; */
+    margin-left: 36%;
+    margin-top: -2%;
+}
+
+#list li {
+    width: 200px;
+    height: 20px;
+    /* margin: 10px; */
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: medium;
+    line-height: 1.2rem;
+    font-weight: 600;
+    font-family: monospace;
+    list-style: none;
+    background-color: aqua;
+    cursor: pointer;
+    /* border: 2px solid black; */
+}
+
+#list li:hover {
+    transform: scale(1.02);
+    background-color: aquamarine;
+}
+
+#list li > button {
+    font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#list {
+    list-style: none;
+}
+
+.delete {
+    display: none;
+}
+
+.cross {
+    background: darkgray !important;
+}
